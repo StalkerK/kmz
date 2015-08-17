@@ -1,4 +1,4 @@
-<% cache do %>
+<%# cache do %>
  <article id="userlogin">
  	<div class="navbar navbar-inverse navbar-inner">
       
@@ -14,21 +14,6 @@
                </ul>
          
        </div>
-
-  <div class="login">
-  
-              <%end%>
-    <% if current_user %>
-  <%= link_to "#{current_user.email}", edit_user_registration_path %>
-   <%= link_to "Вихід", destroy_user_session_path, :method => :delete %>
-<% else %>
-  <%= link_to "Вхід", "#sign_in", "data-toggle" => "modal", :class => 'btn btn-small' %>
- </div>
-
-    <%= render 'shared/sign_in' %>
-    
-  </article>
-
-  
-<% end %>
+<%#end%>
+ 
      

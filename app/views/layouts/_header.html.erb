@@ -1,24 +1,23 @@
-
+<%# cache do %>
   <header> 
-    <%= render 'layouts/user' %>
-    </div>
-    <% cache do %>
-      <div class="head-img">
-      <h1> Часовоярська СЗШІ №8 </h1>
-      <h3>Донецької обласної ради</h3>
-      </div>
-      <div class="navbar navbar-inverse navbar-inner" id="mainmenu2">
+    
+ <div class="container center" id="userlogin">
+  <div class="logo"></div>
+  <div class="navbar navbar-inverse ">
       
-          <ul class="nav">
-              
-              <li><%= link_to "Масові заходи", mass_path %></li>
-              <li><%= link_to "Новини", news_path %></li>
-              <li><%= link_to "Гостьова книга", guest_path %></li>
-              <li><%= link_to "Соціально-психологічна сторінка", spsih_path %></li>
-              <li><%= link_to "Шкільна організація", school_path %></li>
-            </ul>
-        </div>
-      
+        
+            <ul class="nav" id="mainmenu">
 
+              <li><%= link_to "Главная", root_path %></li>
+              <li><%= link_to "О нас", visit_path %></li>
+              <li><%= link_to "Услуги", mbank_path %></li>
+              <li><%= link_to "Продукция", multrp_path %></li>
+              <li><%= link_to "Новости", news_path %></li>
+              <li><%= link_to "Контакты", gwork_path %></li>
+           
+               </ul>
+         
+       </div>
+      </div>
     </header>
-    <%end%>
+    <%#end%>
