@@ -1,11 +1,21 @@
 
 <% provide(:page_title, 'Головна сторінка') %>
-<%cache do%>
-<div class="top_img">
-	<div class="head-txt">Душа исцеляется рядом с детьми.<br>
-     Дети — это наше настоящее и будущее…
-     </div> 
-<%=image_tag("fin1.jpg")%>
 
+
+<div id="wrapper">
+ <div class="slider-wrapper theme-default">
+  <div class="ribbon"></div>
+  <div id="slider" class="ramblingSlider">
+   <%= image_tag ("338.jpg") %>
+   <%= image_tag ("58795.jpg") %>
+   <%= image_tag ("1572896.jpg") %>
+  </div>
+ </div>
 </div>
-<%end%>
+
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').ramblingSlider();
+    });
+    </script>
+

@@ -13,6 +13,7 @@ gem 'paperclip'
 gem 'jquery-turbolinks', '~> 2.1.0'
 gem 'ckeditor', git: 'https://github.com/galetahub/ckeditor.git'
 gem 'simple_form'
+gem 'rambling-slider-rails'
 
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
