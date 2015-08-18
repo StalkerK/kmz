@@ -28,7 +28,6 @@ end
 
   mount Ckeditor::Engine => '/ckeditor'
   
-  resources :uploads
 
 
   # The priority is based upon order of creation: first created -> highest priority.

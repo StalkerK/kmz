@@ -17,4 +17,5 @@
 //= require turbolinks
 //= require ckeditor/init
 //= require welcome.js.coffee
+//= require jquery.rambling.slider
 //= require_tree .
