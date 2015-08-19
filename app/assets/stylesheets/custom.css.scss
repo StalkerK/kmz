@@ -221,40 +221,28 @@ p {
 
 footer {
   
-  height: 100px;
+  height: 50px;
   padding-top: 3.375em;
 margin-top: -1.875em;
   border-top: 0;
   bottom: 0px;
-  background: #F66733 none repeat scroll 0% 0%;
+  vertical-align: middle;
+  background: #EC4B3B none repeat scroll 0% 0%;
  color: #FFF;
- hr{
-  width: 550px;
-  height: 0.06em; 
-  border: none; 
-  background-color: #666;
- }
 
 }
 
 footer a {
-  color: #555;
+  color: white;
+  text-decoration: none;
 }
 
 footer a:hover {
-  color: #222;
+  color: white;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
 }
 
-footer small {
-  float: left;
-}
-
-footer ul {
-  float: right;
-  list-style: none;
-}
-
-footer ul li {
-  float: left;
-  margin-left: 10px;
+.footer_cont {
+  margin-left: 70px;
 }

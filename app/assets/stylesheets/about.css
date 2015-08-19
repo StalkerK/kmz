@@ -59,3 +59,50 @@ line-height: 0;
 .arow2 h3 {
 	margin-top: 27px;
 }
+
+.sabout_image{
+ display: block;
+ position: relative;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+border: 0px none;
+font: inherit;
+
+top: 0px;
+left: 0px;
+right: 0px;
+background-image: url("kmz5.jpg");
+background-color: inherit;
+height: 500px;
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+}
+
+.sabout_cnt{
+ position: relative;
+ margin-top: 100px;
+}
+.sabout_content {
+	vertical-align: middle;
+	padding: 51px 100px;
+}
+.sabout_content h2 {
+	color: #EC4B3B;
+	font-size: 60px;
+    line-height: 70px;
+    font-family: "PT Sans Narrow",sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+}
+.sabout_content p {
+      text-transform: uppercase;
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    margin-top: 15px;
+
+}
