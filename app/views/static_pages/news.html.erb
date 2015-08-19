@@ -1,10 +1,5 @@
-<% provide(:page_title, 'Новини') %>
-
-<%= render 'shared/all_in_one' %>
-
- <div class="login">
-
- <script type="text/javascript">$(document).ready(function() {
+<% provide(:page_title, 'Новости') %>
+<script type="text/javascript">$(document).ready(function() {
     if ($('textarea').length > 0) {
         var data = $('textarea');
         $.each(data, function(i) {
@@ -12,7 +7,10 @@
         });
     }
 });</script>
-  
+
+<%= render 'shared/all_in_one' %>
+
+ <div class="login">
               
     <% if current_user %>
   <%= link_to "#{current_user.email}", edit_user_registration_path %>

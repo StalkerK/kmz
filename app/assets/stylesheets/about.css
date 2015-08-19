@@ -1,0 +1,108 @@
+.hback img{
+	height: 106px;
+}
+.about{
+  padding-top: 41px;
+padding-bottom: 43px;
+color: white;
+
+background: #EC4B3B none repeat scroll 0% 0%;
+
+}
+.container {
+  width: 1170px;
+margin-right: auto;
+margin-left: auto;
+box-sizing: border-box;
+}
+.arow1{
+	
+	margin-left: -30px;
+	    margin-top: 17px;
+clear: both
+
+}
+.arow1:before {
+ display: table;
+content: "";
+line-height: 0;
+}
+
+.arow1:after{
+	display: table;
+    content: "";
+    line-height: 0;
+	clear: both;
+}
+.agrid1{
+	    width: 570px;
+
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+}
+.offs2{
+	margin-top: 16px;
+}
+.arow2{
+	margin-left: -30px;
+	    margin-top: 25px;
+}
+.agrid2 {
+      width: 370px;
+
+    float: left;
+    min-height: 1px;
+    margin-left: 30px;
+
+}
+.arow2 h3 {
+	margin-top: 27px;
+}
+
+.sabout_image{
+ display: block;
+ position: relative;
+overflow: hidden;
+margin: 0px;
+padding: 0px;
+border: 0px none;
+font: inherit;
+
+top: 0px;
+left: 0px;
+right: 0px;
+background-image: url("kmz5.jpg");
+background-color: inherit;
+height: 500px;
+
+background-repeat: no-repeat;
+
+background-position: center center;
+
+}
+
+.sabout_cnt{
+ position: relative;
+ margin-top: 100px;
+}
+.sabout_content {
+	vertical-align: middle;
+	padding: 51px 100px;
+}
+.sabout_content h2 {
+	color: #EC4B3B;
+	font-size: 60px;
+    line-height: 70px;
+    font-family: "PT Sans Narrow",sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+}
+.sabout_content p {
+      text-transform: uppercase;
+    color: #FFF;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px black, 0 0 1em black;
+    margin-top: 15px;
+
+}
