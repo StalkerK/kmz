@@ -4,19 +4,18 @@
 
 html {
   overflow-y: scroll;
+
 }
 
 body {
+  min-width: 949px;
   color: #777;
   font: 400 15px/25px "PT Sans Narrow",sans-serif;
-  min-width:1150px;
-
- 
   
 }
 header{
   position:absolute;
-  min-width:1150px;
+  min-width: 949px;
   height: 106px;
   top: 0px;
   top: 0px;
@@ -43,7 +42,8 @@ header{
 
 
 .container{
- width: 1170px;
+ width: 86%;
+ min-width: 949px;
  margin-right: auto;
 margin-left: auto;
 box-sizing: border-box;
@@ -220,13 +220,12 @@ p {
 /* footer */
 
 footer {
+  min-width: 949px;
+  height: 80px;
   
-  height: 50px;
-  padding-top: 3.375em;
-margin-top: -1.875em;
   border-top: 0;
   bottom: 0px;
-  vertical-align: middle;
+  
   background: #EC4B3B none repeat scroll 0% 0%;
  color: #FFF;
 
@@ -244,5 +243,6 @@ footer a:hover {
 }
 
 .footer_cont {
-  margin-left: 70px;
+  padding-top: 30px;
+  margin-left: 7%;
 }
