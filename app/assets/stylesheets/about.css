@@ -1,7 +1,9 @@
 .hback img{
+ min-width: 949px;
 	height: 106px;
 }
 .about{
+  min-width: 949px;
   padding-top: 41px;
 padding-bottom: 43px;
 color: white;
@@ -9,15 +11,10 @@ color: white;
 background: #EC4B3B none repeat scroll 0% 0%;
 
 }
-.container {
-  width: 1170px;
-margin-right: auto;
-margin-left: auto;
-box-sizing: border-box;
-}
+
 .arow1{
 	
-	margin-left: -30px;
+	margin-left: -2.33%;
 	    margin-top: 17px;
 clear: both
 
@@ -35,25 +32,25 @@ line-height: 0;
 	clear: both;
 }
 .agrid1{
-	    width: 570px;
+	    width: 47.67%;
 
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 2.33%;
 }
 .offs2{
 	margin-top: 16px;
 }
 .arow2{
-	margin-left: -30px;
+	margin-left: -2.33%;
 	    margin-top: 25px;
 }
 .agrid2 {
-      width: 370px;
+      width: 31%;
 
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 2.33%;
 
 }
 .arow2 h3 {
@@ -61,8 +58,9 @@ line-height: 0;
 }
 
 .sabout_image{
+  min-width: 929px;
  display: block;
- position: relative;
+ 
 overflow: hidden;
 margin: 0px;
 padding: 0px;
@@ -84,7 +82,7 @@ background-position: center center;
 
 .sabout_cnt{
  position: relative;
- margin-top: 100px;
+ margin-top: 80px;
 }
 .sabout_content {
 	vertical-align: middle;
