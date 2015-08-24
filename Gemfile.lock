@@ -69,6 +69,7 @@ GEM
     erubis (2.7.0)
     execjs (2.6.0)
     ffi (1.9.10)
+    gmaps4rails (2.1.2)
     hike (1.2.3)
     i18n (0.7.0)
     jbuilder (1.0.2)
@@ -203,6 +204,7 @@ DEPENDENCIES
   ckeditor!
   coffee-rails (= 4.0.1)
   devise
+  gmaps4rails
   jbuilder (= 1.0.2)
   jquery-rails
   jquery-turbolinks (~> 2.1.0)
@@ -221,3 +223,6 @@ DEPENDENCIES
   turbolinks (= 1.1.1)
   twitter-bootstrap-rails
   uglifier (= 2.1.1)
+
+BUNDLED WITH
+   1.10.6

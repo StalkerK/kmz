@@ -18,4 +18,6 @@
 //= require ckeditor/init
 //= require welcome.js.coffee
 //= require jquery.rambling.slider
+//= require underscore
+//= require gmaps/google
 //= require_tree .
