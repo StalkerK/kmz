@@ -1,7 +1,6 @@
 .block {
 background: #000 none repeat scroll 0% 0%;
 display: block;
-
 }
 
 
@@ -72,24 +71,21 @@ counter-increment: li;
 .row2 {
 
 min-height: 1px;
+padding-left: 3%; 
 margin-left: 290px;	
-padding-bottom: 15px;
-padding-top: 62px;
+padding-top: 50px;
+padding-right: 50px;
 background: #000000 none repeat scroll 0% 0%;
 }
 
 .row2 h3 {
 	color: #FFF;
-	padding-left: 37px;
-}
-
-.row2 p {
-	padding-left: 37px;
-}
+	}
 
 .row2 img {
-	padding-left: 30px;
-	padding-bottom: 82px;
+	width: 31%;
+	padding-left: 0.6%;
+	padding-bottom: 56px;
 }
 
 

@@ -2,14 +2,14 @@
   
 <h3 align="center">Результати пошуку</h3>
    <% if @posts.empty? %>
-   	<center> Пошук не дав результату</center>
+   	<center> Поиск не дал результатов </center>
    	<% else %>
     <div class="microposts"> 
 	    <% @posts.each do |post| %>
 	       
 	       <%= raw post.body %>
 	       <hr>
-	      
+	       
 	    <% end %>
     <% end %>
 <%= link_to 'Головна сторінка', root_path %>
