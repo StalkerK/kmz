@@ -9,29 +9,7 @@
 	<div style='width: 100%;'>
 	  <div id="map" style='width: 100%; height: 400px;'></div>
 	</div>
-<script type="text/javascript">
-var styles = [
-  {
-    stylers: [
-      { hue: "#00ffe6" },
-      { saturation: -20 }
-    ]
-  },{
-    featureType: "road",
-    elementType: "geometry",
-    stylers: [
-      { lightness: 100 },
-      { visibility: "simplified" }
-    ]
-  },{
-    featureType: "road",
-    elementType: "labels",
-    stylers: [
-      { visibility: "off" }
-    ]
-  }
-];
-</script>
+
 
 <script type="text/javascript">
 handler = Gmaps.build('Google');
@@ -41,7 +19,7 @@ handler.buildMap({
 		id: 'map'
 		}
 	},
-	 
+
 	function(){ 
 
   markers = handler.addMarkers([
@@ -65,7 +43,46 @@ handler.buildMap({
   handler.bounds.extendWith(markers);
   handler.fitMapToBounds();
   handler.getMap().setZoom(17);
+
 });
 
+	
+	
 
 </script>
+<div class="row3">
+	<h3> Наши контакты </h3>
+	<div class="contact">
+	<dl>
+		<dt>Юридический адрес:</dt>
+		<dd>83086, г.Донецк, пл.Коммунаров, 4</dd>
+	</dl>
+
+	<dl>
+		<dt>Почтовый адрес:</dt>
+		<dd>85300, г.Красноармейск, ул.Добропольская, 2</dd>
+	</dl>
+
+	<dl>
+		<dt> р/с 26005000076797</dt>
+		<dt>в ПАО "ЕРСТЕ БАНК" г.Киев</dt>
+		<dt>МФО 380009; ОКПО 04719432;</dt>
+		<dt>ИНН 047194305163;</dt>
+		<dt>Св-во № 100250234</dt>
+	</dl>
+
+	<dl>
+		<dt>Тел:</dt>
+		<dd>(06239)2-09-61</dd>
+	</dl>
+
+	<dl>
+		<dt>e-mail:</dt>
+		<dd>kmz_ko@i.ua</dd>
+	</dl>
+	
+	</div>
+</div>
+
+<br>
+</br>

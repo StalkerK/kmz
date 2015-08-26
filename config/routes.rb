@@ -3,15 +3,11 @@ SchoolApp::Application.routes.draw do
 root 'static_pages#main'
 
   
-  match 'visit', to: 'static_pages#visit', via: 'get'
-  match 'mbank', to: "static_pages#mbank", via: 'get'
-  match 'multrp', to: "static_pages#multrp", via: 'get'
-  match 'gwork', to: "static_pages#gwork", via: 'get'
-  match 'school', to: "static_pages#school", via: 'get'
-  match 'mass', to: "static_pages#mass", via: 'get'
+  match 'about', to: 'static_pages#about', via: 'get'
+  match 'product', to: "static_pages#product", via: 'get'
+  match 'contact', to: "static_pages#contact", via: 'get'
+  match 'service', to: "static_pages#service", via: 'get'
   match 'news', to: "static_pages#news", via: 'get'
-  match 'guest', to: "static_pages#guest", via: 'get'
-  match 'spsih', to: "static_pages#spsih", via: 'get'
   
  
 
