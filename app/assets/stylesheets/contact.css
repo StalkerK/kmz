@@ -1,0 +1,30 @@
+
+.row3 {
+display: block;
+padding-top:2%;
+padding-bottom: 2%; 
+background: #EC4B3B none repeat scroll 0% 0%;
+
+}
+ .row3 h3 {
+ 	color: #FFF;
+ 	text-transform: uppercase;
+ 	padding-bottom: 20px;
+
+ 	
+ }
+
+.contact {
+	margin-top: 16px;
+	color: #FFF;
+	
+
+}
+.contact dt {
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.contact dd {
+	display: inline-block;
+}

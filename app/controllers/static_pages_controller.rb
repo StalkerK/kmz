@@ -9,42 +9,29 @@ class StaticPagesController < ApplicationController
 
   end
 
-   def visit
-    @page = StaticPage.find_by(name: 'visit')
+   def about
+    @page = StaticPage.find_by(name: 'about')
 
     #@post = @page.posts.build if signed_in?
   end
 
-  def mbank
-    @page = StaticPage.find_by(name: 'mbank')
+  def product
+    @page = StaticPage.find_by(name: 'product')
 
     #@post = @page.posts.build if signed_in?
   end
 
-  def multrp
-    @page = StaticPage.find_by(name: 'multrp')
+  def contact
+    @page = StaticPage.find_by(name: 'contact')
 
     #@post = @page.posts.build if signed_in?
   end
 
-  def gwork
-    @page = StaticPage.find_by(name: 'gwork')
+  def service
+    @page = StaticPage.find_by(name: 'service')
 
     #@post = @page.posts.build if signed_in?
   end
-
-  def school
-    @page = StaticPage.find_by(name: 'school')
-
-    #@post = @page.posts.build if signed_in?
-  end
-
-  def mass
-    @page = StaticPage.find_by(name: 'mass')
-
-    #@post = @page.posts.build if signed_in?
-  end
-
 
   def news
     @page = StaticPage.find_by(name: 'news')
@@ -52,15 +39,4 @@ class StaticPagesController < ApplicationController
     #@post = @page.posts.build if signed_in?
   end
 
-  def guest
-    @page = StaticPage.find_by(name: 'guest')
-
-    #@post = @page.posts.build if signed_in?
-  end
-
-  def spsih
-    @page = StaticPage.find_by(name: 'spsih')
-
-    #@post = @page.posts.build if signed_in?
-  end 
 end

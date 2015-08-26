@@ -91,7 +91,8 @@ font-stretch: normal;
 
 .sub2 em {
 text-transform: uppercase;
-color: #EC4B3B;	
+color: #EC4B3B;
+font-style: normal;
 }
 
 
@@ -108,6 +109,7 @@ color: #EC4B3B;
 	text-transform: uppercase;
 
 }
+
 .white{
 	padding-bottom: 45px;
     padding-top: 41px;
@@ -116,6 +118,8 @@ color: #EC4B3B;
 	font-size: 25px;
 line-height: 34px;
 color: #000;
+	
+
 }
 .slider_text p {	
 	font-weight: 400;
