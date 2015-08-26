@@ -20,8 +20,9 @@
    <%= link_to "Выход", destroy_user_session_path, :method => :delete %>
 <% else %>
   <%= link_to "Вход", "#sign_in", "data-toggle" => "modal", :class => 'btn btn-small' %>
- </div>
+
 
     <%= render 'shared/sign_in' %>
     
 <% end %>
+ </div>
