@@ -13,10 +13,17 @@
 
 <script type="text/javascript">
 handler = Gmaps.build('Google');
-handler.buildMap({ 
+handler.buildMap({
+	 provider: {
+      disableDefaultUI: false,
+      scrollwheel: false,
+      
+      // pass in other Google Maps API options here
+    },
 
 	internal: {
 		id: 'map'
+
 		}
 	},
 
@@ -43,11 +50,10 @@ handler.buildMap({
   handler.bounds.extendWith(markers);
   handler.fitMapToBounds();
   handler.getMap().setZoom(17);
+  
 
 });
 
-	
-	
 
 </script>
 <div class="row3">
