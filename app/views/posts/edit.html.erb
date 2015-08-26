@@ -1,3 +1,7 @@
+<div class="hback">
+  <%=image_tag("kmz3.jpg")%>
+</div>
+
 <div class="hero-unit">
   <center>
 <%= simple_form_for([@page, @post], :html => { :multipart => true }) do |f| %>
@@ -13,9 +17,9 @@
     </div>
   <% end %>
   
-  <%= f.input :body, label: 'Відредагуйте ваше повідомлення', required: false %>
+  <%= f.input :body, label: 'Редактировать новость', required: false %>
 
-  <%= f.submit "Оновлення повідомлення" %>
+  <%= f.submit "Обновить новость" %>
   
 
 <%= link_to 'Назад', :controller => 'static_pages', :action => @page.name %>

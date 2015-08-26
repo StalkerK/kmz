@@ -1,0 +1,150 @@
+.slider_text h3{
+	font-size: 2.75em;
+color: #EC4B3B;
+}
+.grid3#mimg{
+    width: 31.3%;
+}
+.block {
+background: #000 none repeat scroll 0% 0%;
+}
+.mwell{
+	padding-bottom: 47px;
+    padding-top: 41px;
+    position: relative;
+    background: #EC4B3B none repeat scroll 0% 0%;
+}
+
+.index-list{
+
+	counter-reset: li;
+}
+.index-list li{
+
+	position: relative;
+padding-top: 66px;
+}
+.index-list li h3 {
+	font-size: 25px;
+    line-height: 34px;
+	color: #FFF;
+}
+.index-list li p {
+	margin-top: 8px;
+	color: #FFF;
+	padding-right: 20px;
+	
+}
+.index-list li:before {
+position: absolute;
+top: -3px;
+left: 0%;
+width: 65px;
+height: 65px;
+color: #FFF;
+font: 400 65px/65px "PT Sans Narrow",sans-serif;
+content: counter(li, decimal-leading-zero);
+counter-increment: li;
+}
+.grid3 :before {
+position: absolute;
+content: "";
+width: 3000px;
+height: 100%;
+right: 100%;
+top: 0px;
+background: #EC4B3B none repeat scroll 0% 0%;
+}
+ 
+.grid9{
+ width: 72.5%;
+ float: left;
+min-height: 1px;
+margin-left: 2%;
+background: black none repeat scroll 0% 0%;
+}
+* + .row {
+    margin-top: 25px;
+}
+
+
+.index-list li + li {
+	margin-top: 15px;
+}
+.grid9 h3 {
+	color: #FFF;
+	}
+
+
+
+.sub2 {
+
+font-family: "PT Sans Narrow",sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 25px;
+font-size-adjust: none;
+font-stretch: normal;
+}
+
+
+.sub2 em {
+text-transform: uppercase;
+color: #EC4B3B;	
+}
+
+
+
+.slider_text {
+	display: block;
+	position: absolute;
+	text-align: center;
+	width: 100%;	
+	top: 40%;
+	margin: 0;
+	z-index: 999;
+	padding: 0;
+	text-transform: uppercase;
+
+}
+.white{
+	padding-bottom: 45px;
+    padding-top: 41px;
+}
+.white h3{
+	font-size: 25px;
+line-height: 34px;
+color: #000;
+}
+.slider_text p {	
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 25px;
+	color: #ffffff;
+}
+* + .item-list {
+    margin-top: 23px;
+}
+item-list li:nth-child(4n+1) {
+    clear: left;
+}
+.item-list{
+	list-style: outside none none;
+
+}
+.grid11 {
+
+	width: 23%;
+	float: left;
+min-height: 1px;
+margin-left: 2%;
+color: black;
+}
+.item-list li:hover {
+  text-shadow: 1px 1px 2px white, 0 0 1em black;
+
+}
+.swell{
+	margin-top: 41px;
+}

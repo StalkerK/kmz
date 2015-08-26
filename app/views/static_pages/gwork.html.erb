@@ -1,5 +1,71 @@
-<% provide(:page_title, 'Продукция') %>
+
+<% provide(:page_title, 'Контакты') %>
+
+
 <div class="hback">
-<%=image_tag("kmz3.jpg")%>
+	<%=image_tag("kmz3.jpg")%>
 </div>
+
+
+	<div style='width: 100%;'>
+	  <div id="map" style='width: 100%; height: 400px;'></div>
+	</div>
+<script type="text/javascript">
+var styles = [
+  {
+    stylers: [
+      { hue: "#00ffe6" },
+      { saturation: -20 }
+    ]
+  },{
+    featureType: "road",
+    elementType: "geometry",
+    stylers: [
+      { lightness: 100 },
+      { visibility: "simplified" }
+    ]
+  },{
+    featureType: "road",
+    elementType: "labels",
+    stylers: [
+      { visibility: "off" }
+    ]
+  }
+];
+</script>
+
+<script type="text/javascript">
+handler = Gmaps.build('Google');
+handler.buildMap({ 
+
+	internal: {
+		id: 'map'
+		}
+	},
+	 
+	function(){ 
+
+  markers = handler.addMarkers([
+
+    {
+      "lat": 48.28103,
+      "lng": 37.173353,
+      "picture": {
+        "url": "http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=A|EC4B3B|EC4B3B",
+        "width":  36,
+        "height": 36,
+
+      },
+      "infowindow": "ООО Красноармейский машиностроительный завод ул. Добропольская 2 Красноармейск Донецкая 85300"
+
+    }
+
+
+  ]);
+  
+  handler.bounds.extendWith(markers);
+  handler.fitMapToBounds();
+  handler.getMap().setZoom(17);
+});
+</script>
 

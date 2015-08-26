@@ -1,4 +1,7 @@
-<% provide(:page_title, 'Новини') %>
+<% provide(:page_title, 'Новости') %>
+<div class="hback">
+  <%=image_tag("kmz3.jpg")%>
+</div>
 <script type="text/javascript">$(document).ready(function() {
     if ($('textarea').length > 0) {
         var data = $('textarea');
@@ -11,18 +14,14 @@
 <%= render 'shared/all_in_one' %>
 
  <div class="login">
-  
               
     <% if current_user %>
   <%= link_to "#{current_user.email}", edit_user_registration_path %>
-   <%= link_to "Вихід", destroy_user_session_path, :method => :delete %>
+   <%= link_to "Выход", destroy_user_session_path, :method => :delete %>
 <% else %>
-  <%= link_to "Вхід", "#sign_in", "data-toggle" => "modal", :class => 'btn btn-small' %>
+  <%= link_to "Вход", "#sign_in", "data-toggle" => "modal", :class => 'btn btn-small' %>
  </div>
 
     <%= render 'shared/sign_in' %>
     
-  </article>
-
-  
 <% end %>
