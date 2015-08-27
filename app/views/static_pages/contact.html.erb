@@ -11,21 +11,20 @@
 	  <div id="map" style='width: 100%; height: 400px;'></div>
 	</div>
 
-
 <script type="text/javascript">
 handler = Gmaps.build('Google');
 handler.buildMap({
-	 provider: {
-      disableDefaultUI: false,
-      scrollwheel: false,
-      
-      // pass in other Google Maps API options here
-    },
+		 provider: {
+	      disableDefaultUI: false,
+	      scrollwheel: false,
 
-	internal: {
-		id: 'map'
+	      // pass in other Google Maps API options here
+	    },
 
-		}
+		internal: {
+			id: 'map'
+			}
+
 	},
 
 	function(){ 
@@ -44,7 +43,6 @@ handler.buildMap({
       "infowindow": "ООО Красноармейский машиностроительный завод ул. Добропольская 2 Красноармейск Донецкая 85300"
 
     }
-
 
   ]);
   
