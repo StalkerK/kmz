@@ -126,6 +126,7 @@ color: #000;
 	font-size: 15px;
 	line-height: 25px;
 	color: #ffffff;
+	text-shadow: 1px 1px 2px white, 0 0 1em black;
 }
 * + .item-list {
     margin-top: 23px;
