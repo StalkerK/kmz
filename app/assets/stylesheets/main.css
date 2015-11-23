@@ -15,6 +15,8 @@ background: #000 none repeat scroll 0% 0%;
     background: #EC4B3B none repeat scroll 0% 0%;
 }
 
+
+
 .index-list{
 
 	counter-reset: li;
@@ -101,7 +103,7 @@ font-style: normal;
 	display: block;
 	position: absolute;
 	text-align: center;
-	width: 100%;	
+		width: 100%;	
 	top: 40%;
 	margin: 0;
 	z-index: 999;

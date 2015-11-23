@@ -12,12 +12,12 @@
 //
 //= require jquery
 //= require jquery.turbolinks
+//= require underscore
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require turbolinks
 //= require ckeditor/init
 //= require welcome.js.coffee
 //= require jquery.rambling.slider
-//= require underscore
 //= require gmaps/google
 //= require_tree .

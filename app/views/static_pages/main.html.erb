@@ -1,13 +1,14 @@
+<% cache do %>
 <% provide(:page_title, 'Главная') %>
 
 
 <div id="wrapper">
  <div class="slider-wrapper theme-default">
-  <div class="ribbon"></div>
+  
   <div id="slider" class="ramblingSlider">
 
     <div>
-     <%= image_tag ("1.jpeg") %>
+     <%= image_tag ("1.jpg") %>
       <div class="slider_text">
 
          <h3>ВЕДУЩИЙ ПРОИЗВОДИТЕЛЬ<br> ГОРОНО-ШАХТНОГО ОБОРУДОВАНИЯ</h3>
@@ -15,15 +16,16 @@
       </div>
   </div>
 
-   <div>
    	<%= image_tag ("2.jpg") %>
 
-	   <div class="slider_text">
-	         <h3>НАДЁЖНЫЙ ПАРТНЁР<br> ВАШЕГО ПРЕДПРИЯТИЯ</h3>
-	         <p>ООО "КРАСНОАРМЕЙСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД"</p>
-	    </div>
-    </div>
+<div>
 <%= image_tag ("3.jpg") %>
+   <div class="slider_text">
+           <h3>НАДЁЖНЫЙ ПАРТНЁР<br> ВАШЕГО ПРЕДПРИЯТИЯ</h3>
+           <p>ООО "КРАСНОАРМЕЙСКИЙ МАШИНОСТРОИТЕЛЬНЫЙ ЗАВОД"</p>
+      </div>
+    </div>
+
    <div>
    	<%= image_tag ("4.jpg") %>
 
@@ -36,32 +38,25 @@
     </div>
   </div>
 </div>
-
-<script type="text/javascript">
-
-    $(window).ready(function() {
-        $('#slider').ramblingSlider({pauseOnHover: false, speed: 1000, pauseTime: 10000, effect: 'fade'});
-            });
-            </script>
-
 <section class="block">
  <div class="container">
   <div class = "row">
     <div class="mwell grid3">
       <ul class="index-list">
         <li>
-        <h3> ssasasxaASsax
-        axaxasxaxs </h3>
+        <h3> Продукция </h3>
+
         <p>
-        Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolonostrud
+        Выпускаем горно-шахтное оборудование широкой номенклатуры и высокого качества
         </p>
       </li>
     
       <li>
-        <h3> sjjssjjsjaajsjsjsjj
-        jsjsjsjsjsjsjjs </h3>
+        <h3> Капитальный ремонт </h3>
         <p>
-        Lorem i
+
+        Выполняем работы по капитальному ремонту проходческих и добычных комбайнов, а также другого шахтного оборудования
+
         </p>
       </li>
       </ul>
@@ -157,3 +152,17 @@
         </div>
     </div>
   </div>
+ 
+ <script type="text/javascript">
+
+    $(document).ready(function() {
+        $('#slider').ramblingSlider({pauseOnHover: false, speed: 1000, pauseTime: 7000, effect: 'fade'});
+            });
+
+            </script>
+     <script type="text/javascript">
+
+     $('#slider').height(
+    $('#slider').width()/3.016);
+            </script>
+            <%end%>
