@@ -1,5 +1,5 @@
 <div class="hero-unit">
-<h2>Редагувати <%= resource_name.to_s.humanize %></h2>
+<h2> Редактировать <%= resource_name.to_s.humanize %></h2>
 
 <%= form_for(resource, :as => resource_name, :url => user_registration_path(resource), :html => { :method => :put }) do |f| %>
   <%= devise_error_messages! %>
@@ -11,21 +11,21 @@
     <div>Currently waiting confirmation for: <%= resource.unconfirmed_email %></div>
   <% end %>
 
-  <div><%= f.label "Пароль" %> <i>(залиште порожнім, якщо ви не хочете змінити його)</i><br />
+  <div><%= f.label "Пароль" %> <i>(оставить пустым, если вы не хотите менять его)</i><br />
   <%= f.password_field :password, :autocomplete => "off" %></div><br>
 
-  <div><%= f.label "Підтвердження пароля" %>
+  <div><%= f.label "Подтверждение пароля" %>
   <%= f.password_field :password_confirmation %></div><br>
 
-  <div><%= f.label "Діючий пароль" %> <i>(необхідний ваш діючий пароль для підтвердження змін)</i><br />
+  <div><%= f.label "Действующий пароль" %> <i>(нужен ваш действующий пароль для подтверждения изменений)</i><br />
   <%= f.password_field :current_password %></div>
 
-  <div><%= f.submit "Оновити" %></div><br>
+  <div><%= f.submit "Обновить" %></div><br>
 <% end %>
 
-<h3>Скасувати аккаунт</h3>
+<h3>Удалить аккаунт</h3>
 
-<p><%= button_to "Скасувати аккаунт", user_registration_path(resource_name), :data => { :confirm => "Ви впевнені?" }, :method => :delete %></p>
+<p><%= button_to "Удалить аккаунт", user_registration_path(resource_name), :data => { :confirm => "Вы уверены?" }, :method => :delete %></p>
 
 <%= link_to "Назад", root_path %>
 </div>

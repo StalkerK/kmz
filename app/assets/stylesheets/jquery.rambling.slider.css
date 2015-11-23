@@ -13,9 +13,7 @@
 */
 .ramblingSlider {
   position: relative img;
-
     position-position: absolute;
-
     position-top: 0;
     position-left: 0; }
   .ramblingSlider a.rambling-imageLink {
@@ -39,32 +37,21 @@
     z-index: 5; }
   .ramblingSlider .rambling-caption {
     position: absolute;
-    top: 50%;
-    bottom: 50%;
-    left: 25%;
-    right: 50%;
+    bottom: 0;
+    left: 0;
+    background: #000000;
     color: #ffffff;
     opacity: 0.8;
-    width: 50%;
-    z-index: 999;
-    }
+    width: 100%;
+    z-index: 8; }
     .ramblingSlider .rambling-caption p {
-      font-family: "PT Sans Narrow",sans-serif;
-      text-align: center;
       padding: 5px;
-      margin: 0;
-      font-size: 40px;
-      line-height: 50px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: #EC4B3B; }
-
+      margin: 0; }
     .ramblingSlider .rambling-caption a {
       display: inline !important; }
-
   .ramblingSlider .rambling-directionNav a {
     position: absolute;
-    top: 60%;
+    top: 55%;
     z-index: 999;
     cursor: pointer; }
   .ramblingSlider .rambling-prevNav {
@@ -169,10 +156,10 @@
   .theme-default .ramblingSlider .rambling-caption {
     font-family: Helvetica, Arial, sans-serif; }
     .theme-default .ramblingSlider .rambling-caption a {
-      color: #EC4B3B; 
-      border-bottom: 1px dotted #EC4B3B; }
+      color: #ffffff;
+      border-bottom: 1px dotted #ffffff; }
       .theme-default .ramblingSlider .rambling-caption a:hover {
-      color: #EC4B3B; }
+        color: #ffffff; }
 
 /*
  * Skin Name: Orman Theme
@@ -350,8 +337,8 @@
   width: 100%;
   height: 100%; }
   .theme-default #slider.adaptingSlider {
-    width: 750px;
-    height: 299px; }
+    width: 100%;
+    height: 100%; }
 
 .theme-pascal.slider-wrapper,
 .theme-orman.slider-wrapper {
