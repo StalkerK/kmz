@@ -37,7 +37,6 @@
     </div>
   </div>
 </div>
-
 	
 	<script type="text/javascript">
            $(document).ready(function() {
@@ -97,22 +96,22 @@
   <div class="container">
     <h3>ПРОДУКЦИЯ</h3>
     <ul class="row item-list">
-      <%=link_to product_path(anchor: "vent7m") do%>
+      <%=link_to(product_path(:anchor => "vent7m"), data: { no_turbolink: true })  do%>
       <li class="grid11"><%=image_tag("vent-7m.jpg")%>
        <h4>ВЕНТИЛЯТОР ГАЗООТСАСЫВАЮЩИЙ ВМЦГ-7М</h4>
       </li>
       <%end%>
-      <%=link_to product_path(anchor: "v2-10") do%>
+      <%=link_to(product_path(anchor: "v2-10"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("v2-10.jpg")%>
        <h4>ВЕНТИЛЯТОРЫ МЕСТНОГО ПРОВЕТРИВАНИЯ<br> ВМЭ 2-10</h4>
       </li>
       <%end%>
-      <%=link_to product_path(anchor: "vent2-8") do%>
+      <%=link_to(product_path(anchor: "vent2-8"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("vent2-8.jpg")%>
        <h4>ВЕНТИЛЯТОРЫ ШАХТНЫЕ МЕСТНОГО ПРОВЕТРИВАНИЯ ВМЭ 2-8</h4>
       </li>
       <%end%>
-      <%=link_to product_path(anchor: "dsy-4m") do%>
+      <%=link_to(product_path(anchor: "dsy-4m"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("dsy-4m.jpg")%>
        <h4>ДОЗАТОР СМАЧИВАТЕЛЯ УЧАСТКОВЫЙ ДСУ-4М</h4>
       </li>
@@ -121,22 +120,22 @@
     <div class="swell">
     <h3>КАПРЕМОНТ</h3>
     <ul class="row item-list">
-      <%=link_to service_path(anchor: "1gpks") do%>
+      <%=link_to(service_path(anchor: "1gpks"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("1gpks.jpg")%>
        <h4>КОМБАЙН 1ГПКС</h4>
       </li>
       <%end%>
-      <%=link_to service_path(anchor: "sp250") do%>
+      <%=link_to(service_path(anchor: "sp250"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("sp250.jpg")%>
        <h4>СКРЕБКОВЫЙ КОНВЕЙЕР</h4>
       </li>
       <%end%>
-      <%=link_to service_path(anchor: "rky10") do%>
+      <%=link_to(service_path(anchor: "rky10"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("rky10.jpg")%>
        <h4>ОЧИСТНОЙ КОМБАЙН РКУ-10, РКУ-13, 1К101У</h4>
       </li>
       <%end%>
-      <%=link_to service_path(anchor: "ykd-200") do%>
+      <%=link_to(service_path(anchor: "ykd-200"), data: { no_turbolink: true }) do%>
       <li class="grid11"><%=image_tag("ykd-200.jpg")%>
        <h4>ОЧИСТНОЙ КОМБАЙН УКД-200-250, УКД-200</h4>
       </li>
